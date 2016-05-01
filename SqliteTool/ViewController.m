@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "LIUPerson.h"
+#import "LIUORM.h"
 
 @interface ViewController ()
 
@@ -16,12 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    LIUPerson *p = [LIUPerson new];
+    p.age = 20;
+    p.name = @"foo";
+    p.num = @5;
+    BOOL executeResult = [LIUSqliteUnit liu_sqltool:^(LIUSqliteUnit *executer) {
+        executer.setupDatabase(@"/test.sqlite").insert(p);
+    }];
+    NSLog(@"%d", executeResult);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
