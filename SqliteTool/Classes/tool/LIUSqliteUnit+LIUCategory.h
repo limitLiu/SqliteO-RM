@@ -11,5 +11,6 @@
 
 @interface LIUSqliteUnit (LIUCategory)
 
-+ (BOOL)liu_sqltool:(void(^)(LIUSqliteUnit *))block;
++ (BOOL)liu_sqltool:(void(^)(LIUSqliteUnit *executer))block;
++ (id)liu_sqltoolGet:(void (^)(LIUSqliteUnit *executer))block;
 @end

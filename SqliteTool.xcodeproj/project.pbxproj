@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A0F70D1CECBFCB00D428D7 /* LIUPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A0F70C1CECBFCB00D428D7 /* LIUPerson.m */; };
+		17A0F7111CECBFE300D428D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A0F7101CECBFE300D428D7 /* ViewController.m */; };
+		17A0F7151CECC01800D428D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A0F7141CECC01800D428D7 /* AppDelegate.m */; };
 		17E0562A1CD4A61200F1630C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E056291CD4A61200F1630C /* main.m */; };
-		17E0562D1CD4A61200F1630C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E0562C1CD4A61200F1630C /* AppDelegate.m */; };
-		17E056301CD4A61200F1630C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E0562F1CD4A61200F1630C /* ViewController.m */; };
 		17E056331CD4A61200F1630C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E056311CD4A61200F1630C /* Main.storyboard */; };
 		17E056351CD4A61200F1630C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E056341CD4A61200F1630C /* Assets.xcassets */; };
 		17E056381CD4A61200F1630C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E056361CD4A61200F1630C /* LaunchScreen.storyboard */; };
-		17E056461CD4A71B00F1630C /* LIUPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E056451CD4A71B00F1630C /* LIUPerson.m */; };
 		17E0564C1CD4AD5500F1630C /* LIUSqliteUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E0564B1CD4AD5500F1630C /* LIUSqliteUnit.m */; };
 		17E0564E1CD4AEE000F1630C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E0564D1CD4AEE000F1630C /* libsqlite3.tbd */; };
 		17E0565D1CD5017100F1630C /* NSObject+LIUVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E0565C1CD5017100F1630C /* NSObject+LIUVars.m */; };
@@ -22,18 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17A0F70B1CECBFCB00D428D7 /* LIUPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUPerson.h; sourceTree = "<group>"; };
+		17A0F70C1CECBFCB00D428D7 /* LIUPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUPerson.m; sourceTree = "<group>"; };
+		17A0F70F1CECBFE300D428D7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17A0F7101CECBFE300D428D7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17A0F7131CECC01800D428D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17A0F7141CECC01800D428D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		17E056251CD4A61200F1630C /* SqliteTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E056291CD4A61200F1630C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		17E0562B1CD4A61200F1630C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		17E0562C1CD4A61200F1630C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		17E0562E1CD4A61200F1630C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		17E0562F1CD4A61200F1630C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		17E056321CD4A61200F1630C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17E056341CD4A61200F1630C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17E056371CD4A61200F1630C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17E056391CD4A61200F1630C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17E056441CD4A71A00F1630C /* LIUPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUPerson.h; sourceTree = "<group>"; };
-		17E056451CD4A71B00F1630C /* LIUPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUPerson.m; sourceTree = "<group>"; };
 		17E0564A1CD4AD5500F1630C /* LIUSqliteUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUSqliteUnit.h; sourceTree = "<group>"; };
 		17E0564B1CD4AD5500F1630C /* LIUSqliteUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUSqliteUnit.m; sourceTree = "<group>"; };
 		17E0564D1CD4AEE000F1630C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -58,6 +58,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A0F70A1CECBFCB00D428D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17A0F70B1CECBFCB00D428D7 /* LIUPerson.h */,
+				17A0F70C1CECBFCB00D428D7 /* LIUPerson.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17A0F70E1CECBFE300D428D7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17A0F70F1CECBFE300D428D7 /* ViewController.h */,
+				17A0F7101CECBFE300D428D7 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		17A0F7121CECC01800D428D7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				17A0F7131CECC01800D428D7 /* AppDelegate.h */,
+				17A0F7141CECC01800D428D7 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		17A0F7161CECC03700D428D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17E056311CD4A61200F1630C /* Main.storyboard */,
+				17E056361CD4A61200F1630C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		17E0561C1CD4A61200F1630C = {
 			isa = PBXGroup;
 			children = (
@@ -78,14 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				17E0563F1CD4A63300F1630C /* Classes */,
-				17E0562B1CD4A61200F1630C /* AppDelegate.h */,
-				17E0562C1CD4A61200F1630C /* AppDelegate.m */,
-				17E0562E1CD4A61200F1630C /* ViewController.h */,
-				17E0562F1CD4A61200F1630C /* ViewController.m */,
-				17E056311CD4A61200F1630C /* Main.storyboard */,
-				17E056341CD4A61200F1630C /* Assets.xcassets */,
-				17E056361CD4A61200F1630C /* LaunchScreen.storyboard */,
-				17E056391CD4A61200F1630C /* Info.plist */,
 				17E056281CD4A61200F1630C /* Supporting Files */,
 			);
 			path = SqliteTool;
@@ -94,6 +122,8 @@
 		17E056281CD4A61200F1630C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				17E056391CD4A61200F1630C /* Info.plist */,
+				17E056341CD4A61200F1630C /* Assets.xcassets */,
 				17E0564D1CD4AEE000F1630C /* libsqlite3.tbd */,
 				17E056291CD4A61200F1630C /* main.m */,
 			);
@@ -103,28 +133,13 @@
 		17E0563F1CD4A63300F1630C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				17E056401CD4A66200F1630C /* controller */,
-				17E056411CD4A66200F1630C /* model */,
+				17A0F7161CECC03700D428D7 /* View */,
+				17A0F7121CECC01800D428D7 /* AppDelegate */,
+				17A0F70E1CECBFE300D428D7 /* ViewController */,
+				17A0F70A1CECBFCB00D428D7 /* Model */,
 				17E056421CD4A66200F1630C /* tool */,
-				17E056431CD4A66200F1630C /* view */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		17E056401CD4A66200F1630C /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		17E056411CD4A66200F1630C /* model */ = {
-			isa = PBXGroup;
-			children = (
-				17E056441CD4A71A00F1630C /* LIUPerson.h */,
-				17E056451CD4A71B00F1630C /* LIUPerson.m */,
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 		17E056421CD4A66200F1630C /* tool */ = {
@@ -141,13 +156,6 @@
 				17E056861CD5FA7300F1630C /* LIUORM.h */,
 			);
 			path = tool;
-			sourceTree = "<group>";
-		};
-		17E056431CD4A66200F1630C /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,14 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E056301CD4A61200F1630C /* ViewController.m in Sources */,
-				17E0562D1CD4A61200F1630C /* AppDelegate.m in Sources */,
 				17E0562A1CD4A61200F1630C /* main.m in Sources */,
+				17A0F7111CECBFE300D428D7 /* ViewController.m in Sources */,
 				17E0564C1CD4AD5500F1630C /* LIUSqliteUnit.m in Sources */,
 				17E0566C1CD5336500F1630C /* LIUVarCode.m in Sources */,
+				17A0F7151CECC01800D428D7 /* AppDelegate.m in Sources */,
 				17E056851CD5ED7D00F1630C /* LIUSqliteUnit+LIUCategory.m in Sources */,
 				17E0565D1CD5017100F1630C /* NSObject+LIUVars.m in Sources */,
-				17E056461CD4A71B00F1630C /* LIUPerson.m in Sources */,
+				17A0F70D1CECBFCB00D428D7 /* LIUPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +250,7 @@
 				17E056321CD4A61200F1630C /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		17E056361CD4A61200F1630C /* LaunchScreen.storyboard */ = {
@@ -250,6 +259,7 @@
 				17E056371CD4A61200F1630C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

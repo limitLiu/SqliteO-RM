@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface LIUSqliteUnit : NSObject
 
 @property (nonatomic, assign) BOOL executeResult;
+@property (nonatomic, strong) NSMutableArray *resultArray;
+@property (nonatomic, strong) id getObj;
+
 
 #pragma mark - 初始化操作
 
@@ -39,7 +41,9 @@
  *  @return 返回成功或失败讯息
  */
 - (LIUSqliteUnit *(^)(id))insert;
-+ (BOOL)liu_update:(id)obj;
-+ (NSMutableArray *)liu_objc:(NSString *)sql;
-+ (BOOL)liu_delete:(id)obj;
+- (LIUSqliteUnit *(^)(id))update;
+- (LIUSqliteUnit *(^)(Class, long))get;
+- (LIUSqliteUnit *(^)(id))deleteObj;
+
++ (NSMutableArray *)liu_getData:(NSString *)sql;
 @end

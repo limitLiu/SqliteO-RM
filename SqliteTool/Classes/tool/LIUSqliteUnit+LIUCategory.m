@@ -10,9 +10,14 @@
 
 @implementation LIUSqliteUnit (LIUCategory)
 
-+ (BOOL)liu_sqltool:(void (^)(LIUSqliteUnit *))block {
++ (BOOL)liu_sqltool:(void (^)(LIUSqliteUnit *executer))block {
     LIUSqliteUnit *sqliteUnit = [LIUSqliteUnit new];
     block(sqliteUnit);
     return sqliteUnit.executeResult;
+}
++ (id)liu_sqltoolGet:(void (^)(LIUSqliteUnit *executer))block {
+    LIUSqliteUnit *sqliteUnit = [LIUSqliteUnit new];
+    block(sqliteUnit);
+    return sqliteUnit.getObj;
 }
 @end
